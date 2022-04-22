@@ -21,7 +21,7 @@ An Expenditures App UI which is fully adaptive and responsive to the platform, d
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/EXPENSES1.png" width="250" >
   </div>
   
-  In Landscape Mode...
+  A switch will appear in Landscape Mode, after clicking which will switch to the screen in List items and Chart Bar as per the screen orientation of the device.
   
 <div class="row">  
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/expensesL1.png" width="250" >
