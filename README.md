@@ -6,8 +6,8 @@
 I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with flutter. I really enjoying design cross-platform Mobile App, UI, UX.
 
 ## Skills and Experience
-* ![image](https://user-images.githubusercontent.com/100296726/164648501-df50aef4-82ab-4aa5-80d7-66f5a8d23fed.png) JAVA
-* ![image](https://user-images.githubusercontent.com/100296726/164648661-200b7596-f09f-4c6b-a8d7-0238e49111af.png) FLUTTER
+* JAVA
+* FLUTTER
 
 - 🌱 I’m currently learning Database 
 - 📫 How to reach me: chanduhprakash@gmail.com 
