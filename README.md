@@ -1,10 +1,8 @@
-# startup_namer
+### Hi there 👋
 
-A new Flutter project.
+i am chandra prakash mishra from Bhopal, I do the desigining and development with flutter. I really enjoy doing design App, UI, UX. as well as to explore new ideas and play around with the codes. 
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
+[![akaChandu's GitHub stats](https://github-readme-stats.vercel.app/api?username=akaChandu)](https://github.com/anuraghazra/github-readme-stats)
 
 A few resources to get you started if this is your first Flutter project:
 
