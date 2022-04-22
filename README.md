@@ -13,4 +13,5 @@ I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with
 * FLUTTER
 
 ## Example of WorkDone
-<img src="https://github.com/akaChandu/expenditure-list/blob/master/EXPENSES1.png" width="250" >
+<img src="https://github.com/akaChandu/expenditure-list/blob/master/EXPENSES1.png" width="250" height="356">
+<img src="https://github.com/akaChandu/expenditure-list/blob/master/EXPENSES2.png" width="250" height="356">
