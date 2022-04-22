@@ -8,8 +8,7 @@ I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with
 - 📫 How to reach me: chanduhprakash@gmail.com 
 
 ## Skills and Experience
-* JAVA
-* FLUTTER
+[![My Skills](https://skillicons.dev/icons?i=java,flutter)](https://skillicons.dev)
 
 ## Design and Development
 An Expenditures App UI which is fully adaptive and responsive to the platform, designed and developed by flutter.
