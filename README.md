@@ -11,7 +11,7 @@ I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with
 * JAVA
 * FLUTTER
 
-### Design and Development
+## Design and Development
 An Expenditures App UI which is fully adaptive and responsive to the platform, designed and developed by flutter.
 
 ## Example of WorkDone
