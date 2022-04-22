@@ -20,7 +20,8 @@ An Expenditures App UI which is fully adaptive and responsive to the platform, d
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/expenses3.png" width="250" >
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/EXPENSES1.png" width="250" >
   </div>
-  
+<div class="row">  
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/expensesL1.png" width="250" >
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/expensesL2.png" width="250" >
 <img src="https://github.com/akaChandu/expenditure-list/blob/master/expensesL3.png" width="250" >
+  </div>
