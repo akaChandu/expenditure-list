@@ -8,7 +8,7 @@ I am Chandra Prakash Mishra from Bhopal, I do the Designing and Development with
 - 📫 How to reach me: chanduhprakash@gmail.com 
 
 ## Skills and Experience
-[![My Skills](https://skillicons.dev/icons?i=flutter)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=flutter)](https://flutter.dev)
 
 # Expenditure List
 
