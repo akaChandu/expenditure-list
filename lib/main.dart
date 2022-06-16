@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 // import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import './models/mysql.dart';
 // import 'package:flutter/services.dart';
 
 import './widgets/chart.dart';
@@ -92,6 +93,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   ];
 
   bool _showChart = false;
+  // var db = new Mysql();
 
   @override
   void initState() {

@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
+import 'package:startup_namer/models/mysql.dart';
 import '../widgets/adaptive_flat_button.dart';
 
 class NewTransaction extends StatefulWidget {
@@ -27,6 +28,7 @@ class _NewTransactionState extends State<NewTransaction> {
   final _titleController = TextEditingController();
   final _amountController = TextEditingController();
   DateTime? _selectedDate;
+  // var db = new Mysql();
 
   _NewTransactionState() {
 
@@ -59,6 +61,13 @@ class _NewTransactionState extends State<NewTransaction> {
   }
 
   void _submitData() {
+    // db.getConnection().then((conn) {
+    //   String sql = 'insert into spends(title, amount, created_at) values(?, ?, ?)';
+    //   conn.query(sql).then((result) {
+
+    //   });
+    // });
+
     if (_amountController.text.isEmpty) {
       return;
     }
