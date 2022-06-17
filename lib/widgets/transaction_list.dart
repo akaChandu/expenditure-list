@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import '../models/transaction.dart';
 import './transaction_item.dart';
+import '../main.dart';
 
 class TransactionList extends StatelessWidget {
   final List<Transaction> transactions;

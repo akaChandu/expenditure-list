@@ -34,7 +34,7 @@ class _TransactionItemState extends State<TransactionItem> {
           child: Padding(
             padding: const EdgeInsets.all(5.0),
             child: FittedBox(
-              child: Text('\$${widget.transaction.amount}'),
+              child: Text('\₹${widget.transaction.amount}'),
             ),
           ),
         ),
