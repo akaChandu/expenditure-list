@@ -1,10 +1,8 @@
 import 'dart:io';
-import 'package:mysql1/mysql1.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:startup_namer/models/mysql.dart';
 import '../widgets/adaptive_flat_button.dart';
 
 class NewTransaction extends StatefulWidget {
@@ -29,7 +27,6 @@ class _NewTransactionState extends State<NewTransaction> {
   final _titleController = TextEditingController();
   final _amountController = TextEditingController();
   DateTime? _selectedDate;
-  // var db = new Mysql();
 
   _NewTransactionState() {
 
@@ -62,13 +59,6 @@ class _NewTransactionState extends State<NewTransaction> {
   }
 
   void _submitData() {
-    // db.getConnection().then((conn) {
-    //   String sql = 'insert into spends(title, amount, created_at) values(?, ?, ?)';
-    //   conn.query(sql).then((result) {
-
-    //   });
-    // });
-  // Future _submitData() async {
 
     if (_amountController.text.isEmpty) {
       return;
@@ -78,35 +68,7 @@ class _NewTransactionState extends State<NewTransaction> {
 
     if (enteredTitle.isEmpty || enteredAmount <= 0 || _selectedDate == null) {
       return;
-    }
-
-    
-    // final conn = await MySqlConnection.connect(ConnectionSettings(
-    //   host: '127.0.0.1',
-    //   port: 3306,
-    //   user: 'root',
-    //   password: 'Chandu@1234',
-    //   db: 'transaction'
-    // ));
-
-    // here is that impli...
-    // final settings = ConnectionSettings (
-    //   host: '10.0.2.2',
-    //   port: 3306,
-    //   user: 'root',
-    //   password: 'Chandu@1234',
-    //   db: 'transaction'
-    // );
-    // var conn = await MySqlConnection.connect(settings);
-
-    // var result = await conn.query(
-    //     'insert into spends (title, amount, created_at) values (?, ?, ?)',
-    //     [widget.addTx(enteredTitle) , widget.addTx(enteredAmount), widget.addTx(_selectedDate)]
-    //   );
-    //   print('inserted row id=${result.insertId}');
-
-    //   await conn.close();
-  
+    }  
 
     widget.addTx(
       enteredTitle,

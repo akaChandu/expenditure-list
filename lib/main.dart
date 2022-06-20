@@ -3,8 +3,6 @@ import 'dart:io';
 import 'package:flutter/cupertino.dart';
 // import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'package:mysql1/mysql1.dart';
-import './models/mysql.dart';
 // import 'package:flutter/services.dart';
 
 import './widgets/chart.dart';
@@ -94,10 +92,6 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
   ];
 
   bool _showChart = false;
-  // var db = new Mysql();
-  // var title = '';
-  // var amount = '';
-  // var created_at = '';
 
 
   @override
@@ -141,55 +135,6 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
     });
   }
 
-  // from new one
-  // Future _addNewTransaction(
-  //     String txTitle, double txAmount, DateTime chosenDate) async {
-  //   final newTx = Transaction(
-  //     title: txTitle,
-  //     amount: txAmount,
-  //     time: chosenDate,
-  //     id: DateTime.now().toString(),
-  //   );
-
-
-    // not working 
-    // final settings = ConnectionSettings (
-    //   host: '10.0.2.2',
-    //   port: 3306,
-    //   user: 'root',
-    //   password: 'Chandu@1234',
-    //   db: 'transaction'
-    // );
-    // var conn = await MySqlConnection.connect(settings);
-
-    // var result = await conn.query(
-    //     'insert into spends (title, amount, created_at) values (?, ?, ?)',
-    //     []
-    //   );
-    //   print('inserted row id=${result.insertId}');
-
-      
-    // await conn.close();
-
-    // setState(() {
-    //   _userTransactions.add(newTx);
-    // });
-
-  // }
-
-    // void _getInfo(BuildContext ctx) {
-      // db.getConnection().then((conn) {
-      //   String sql = 'select title, amount, created at from transaction.spends where id = 1;';
-      //   conn.query(sql).then((results) {
-      //     for(var row in results) {
-      //       setState(() {
-      //         title = row[0];
-      //         amount = row[0];
-      //         // created_at = row[0];
-      //       });
-      //     }
-      //   });
-      // });
 
   void _startAddNewTransaction(BuildContext ctx) {
     showModalBottomSheet(
@@ -377,7 +322,7 @@ class _MyHomePageState extends State<MyHomePage> with WidgetsBindingObserver {
                 : FloatingActionButton(
                     child: const Icon(Icons.add),
                     onPressed: () => {
-                      _startAddNewTransaction(context),  // _getInfo, 
+                      _startAddNewTransaction(context),
                     },
                   ),
           );

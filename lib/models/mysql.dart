@@ -10,12 +10,6 @@
   //     db: 'transaction'
   //   ));
 
-  //   var result = await conn.query(
-  //       'insert into spends (title, amount, created_at) values (?, ?, ?)',
-  //       ['home', 45.26, '2022-06-17']
-  //     );
-  //     print('inserted row id=${result.insertId}');
-
   //     await conn.close();
   // }
 
